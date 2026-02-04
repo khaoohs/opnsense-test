@@ -85,9 +85,9 @@
       <reboot>1</reboot>
     </firmware>
     <backup>
-      <git version="1.0.0" persisted_at="1770234545.16" description="Git Backup Settings">
+      <git version="1.0.0" persisted_at="1770234657.65" description="Git Backup Settings">
         <enabled>1</enabled>
-        <url>https://github.com/khaoohs/opnsense-test.git</url>
+        <url>ssh://github.com/khaoohs/opnsense-test.git</url>
         <branch>master</branch>
         <force_push>0</force_push>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#13;
@@ -226,8 +226,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.170</username>
-    <description>Changed backup revision count</description>
-    <time>1770234577.59</time>
+    <description>/diag_backup.php made changes</description>
+    <time>1770234657.65</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770230277.32" description="Unbound configuration">
