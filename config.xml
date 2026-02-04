@@ -88,7 +88,6 @@
   </system>
   <interfaces>
     <wan>
-      <enable>1</enable>
       <if>em0</if>
       <mtu/>
       <ipaddr>dhcp</ipaddr>
@@ -103,6 +102,7 @@
       <dhcphostname/>
       <spoofmac/>
       <mss/>
+      <descr/>
     </wan>
     <lan>
       <enable>1</enable>
@@ -208,8 +208,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.1.170</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1770231544.23</time>
+    <description>Interface (wan) is now disabled.</description>
+    <time>1770231603.54</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770230277.32" description="Unbound configuration">
