@@ -105,18 +105,13 @@
       <descr/>
     </wan>
     <lan>
-      <enable>1</enable>
       <if>igb0</if>
+      <descr/>
+      <enable>1</enable>
+      <spoofmac/>
       <ipaddr>192.168.1.251</ipaddr>
       <subnet>24</subnet>
-      <ipaddrv6/>
-      <subnetv6/>
-      <media/>
-      <mediaopt/>
-      <gateway/>
-      <gatewayv6/>
-      <blockpriv>0</blockpriv>
-      <blockbogons>0</blockbogons>
+      <gateway>gw-test</gateway>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -208,8 +203,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.1.170</username>
-    <description>/api/routing/settings/add_gateway/ made changes</description>
-    <time>1770231690.42</time>
+    <description>/interfaces.php made changes</description>
+    <time>1770231815.43</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770230277.32" description="Unbound configuration">
