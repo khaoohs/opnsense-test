@@ -208,8 +208,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.1.170</username>
-    <description>Interface (wan) is now disabled.</description>
-    <time>1770231603.54</time>
+    <description>/api/routing/settings/add_gateway/ made changes</description>
+    <time>1770231690.42</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770230277.32" description="Unbound configuration">
@@ -734,7 +734,34 @@
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <Gateways version="1.0.0" persisted_at="1770231015.76" description="Gateways configuration"/>
+    <Gateways version="1.0.0" persisted_at="1770231690.42" description="Gateways configuration">
+      <gateway_item uuid="0b6bc433-fc6b-481f-9bd0-f2e42931948e">
+        <disabled>0</disabled>
+        <name>gw-test</name>
+        <descr/>
+        <interface>lan</interface>
+        <ipprotocol>inet</ipprotocol>
+        <gateway>192.168.1.1</gateway>
+        <defaultgw>1</defaultgw>
+        <fargw>0</fargw>
+        <monitor_disable>1</monitor_disable>
+        <monitor_noroute>0</monitor_noroute>
+        <monitor_killstates>0</monitor_killstates>
+        <monitor_killstates_priority>0</monitor_killstates_priority>
+        <monitor/>
+        <force_down>0</force_down>
+        <priority>255</priority>
+        <weight>1</weight>
+        <latencylow/>
+        <latencyhigh/>
+        <losslow/>
+        <losshigh/>
+        <interval/>
+        <time_period/>
+        <loss_interval/>
+        <data_length/>
+      </gateway_item>
+    </Gateways>
     <IDS version="1.1.2" persisted_at="1770230278.99" description="Intrusion detection">
       <rules/>
       <policies/>
