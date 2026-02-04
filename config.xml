@@ -44,10 +44,14 @@
     <webgui>
       <protocol>https</protocol>
       <ssl-certref>69839426add27</ssl-certref>
+      <port/>
+      <ssl-ciphers/>
+      <interfaces/>
+      <compression/>
     </webgui>
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
-    <disableconsolemenu/>
+    <disableconsolemenu>1</disableconsolemenu>
     <powerd_ac_mode>hadp</powerd_ac_mode>
     <powerd_battery_mode>hadp</powerd_battery_mode>
     <powerd_normal_mode>hadp</powerd_normal_mode>
@@ -58,6 +62,17 @@
     <lb_use_sticky>1</lb_use_sticky>
     <ssh>
       <group>admins</group>
+      <noauto>1</noauto>
+      <interfaces/>
+      <kex/>
+      <ciphers/>
+      <macs/>
+      <keys/>
+      <keysig/>
+      <rekeylimit/>
+      <enabled>enabled</enabled>
+      <passwordauth>1</passwordauth>
+      <permitrootlogin>1</permitrootlogin>
     </ssh>
     <rrdbackup>-1</rrdbackup>
     <netflowbackup>-1</netflowbackup>
@@ -85,6 +100,8 @@
     <pf_disable_force_gw>1</pf_disable_force_gw>
     <disablereplyto>1</disablereplyto>
     <backupcount>3</backupcount>
+    <serialspeed>115200</serialspeed>
+    <primaryconsole>video</primaryconsole>
   </system>
   <interfaces>
     <wan>
@@ -203,8 +220,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.1.170</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1770232528.77</time>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1770233067.11</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770230277.32" description="Unbound configuration">
@@ -986,4 +1003,5 @@
     <csr/>
     <prv>LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUpRZ0lCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQ1N3d2dna29BZ0VBQW9JQ0FRREliMUNrM2xzb3YrZSsKTzBFbXRTY1RrdDVuNytFZFYvL3Q5bzczYjRlOUlkR1o5Rlh5bG1acEY5V2FLUlFmTXhqaFNxbWhYMDBQaDZ6eQpyK2lhRjlpbk96TW9PbkJoelVJQ1pBbnFiTTZ5aVo0VFZPL2ZPaHp5ZmYzalNXWUxhOFdlaG9iVUR2c2pESEVRCk9ERDRiejM4ZGptMElXYnF4SHJNRWI2elJJUDczWUM1bVZOenQrVlNuMmMyOC9VTzhrMllEWmJpQzExK1Z3WDUKMHdBbkN5ZlFLZ0lvamhhRm1mSVM1UjNHTjc5cEpIdXhPOHdFQjlTYWhPelZvK0hjdjRsblQrdU1GNEQ5Z0lYbQpOVTVOaVJlTURVTXNOK201a1lyRVJVb0YyczRJblZHMi8zSXhyNXJ5ZmJ5T0EwWVNiMGw0MDhTU3VZanQ4cENpCnluS0VTbFYwdDdMNWFoMitlQTU0MXkwYVBQcEJXcFJrT1YwVnhFQ0RVUHR3K0VtZlhsTnhvcnNrd1Z4N0dha2MKT3ZCM2R4TysxU2pQT3VoTHdyR21DdDVlbUJJWnQrZTZTRGhBTEJieE5UOGEwbzhyTFQ1TW9BWDdKcnJiMDgwdgpQck9MS0ZORDlWWlNIWWF3aXlxaEpXQm96R1VhUlpNZDdxZ3pid21pb0daczNnNnBELzUxcndSU2ZtOHl4UTZoCldvM2VRT3FRVHp2VHBZbEh3NSt5VXJNSlRVVk5NenVUQVF1UHJONnlORkFBdTVKM1A5cFdqaVplRzZmVThEQ3AKcGd4ZXRHN3RyaDZpWDc0L1FJNENERUlBYm9rVncxcVVFRjlWUm9BV1dwQ0lYUEtlWmR5WFAydGZtZk4xVkZoVQpybXJCaktaWFBJZFoxWE82c1V3aEpPZ2ZzVmJDMlFJREFRQUJBb0lDQUFNM0QrVFpJVDYxMTFhTWxrYXo3TERLCmNCRmNQbkR0VHJCblBsTlhRV2JtQWpuMU9xUzF4MlpEcU53OGNQTndLeVBBQWhrUjBZZGdmb1IxRUdiYVg1SU4KSjh5ckpVN1lUMGtCQ0V5dm1xQXdCMjVaZERDUk90SWo5YnpkMmtwd0c5OG5Xc1hQaUxVKzk1aFNRbXpWd2ZtSQovdk4xL3JQZzIzUm5DM2RPTDh6TU9JcWhuRDVVc3BQQTlWT2pGYWo3OTRVcklLSzNHblNTbWtpdjJ3YUZUZ252CmhwSFdkNk9FZk9iVE1JZFRzUmtUYWYyRmowZjRSUytHVnRNMWVnUER1Y1ZEdWF4Sld6c1Z3dkFXcGs4bGxoQmIKelJwS09sQk05cHdmM1doYkltZHVlSmRXSVNPTlpNK2pkekVTK2Q2RlZQa2djbnlGQjk2RFA5RXdyS1lWR0NwTQpIRlFHRmZ4MzM3SXhIOVphTFBKRWlrSWpEZUdhc2ZMQ2tNRE8wVE4ydzdMeE8yLy9UOWpoMEN6YTF3a0piTDhJClBKRXNER3lNaS9ZYThUMFVnY29pSFJyOHFKRStTTGRPb3p3WDc2ZWdVb3d6eWx5elkwQ1RjRDN4REFvOXRPbWkKcVNoMHhLSjlTSFhwL3dRUnhNM1hwRmxqL3hVZ0szYnRZdWdCT2o0WkZVYmlLQ00vSVNoSVdjWG9kdFl0T2lzZQp2L0ZuVk9SUlEzZFFsZDJuT0hQNUxHYU9RT2dYbytkQmVCZW9DUzgxSlpDYWR2eXRNTnZPQUxiQTVDcERJUVUzCkJQQkZ6bGRvdGhvY0o3M0hBVS80ekNpRkhBRURUaDV1Z3M2ZnptUzR1SVU2TnRiRDNGRW1DRWh0Z0thNXpPVk0KclFrUGdTMXJWSEliaUlQK1ZWQ2hBb0lCQVFEbTViOGN0OTlwUlgyM1ViUDJXZTlHNUdZdUJtdjdUN1lIVGpIMgpUbXVlT2JITFQ5c1ZPZ2VkQTFFYjZQb04wSW9hRXk0RXBMclJHN3pWTWVVQUEvb01yOCs0RytKRGh1NU9Ld2VlCkllTFhOa0Y0MU9vQ3hDMXIvVkJkdXoyUEYzMW1panZaMHVyVVIzKzdjczRDQlNQc3FEak5HdVgyQ3dPUzhxT3UKNFlQZXVKK1VPSzFibGhsTnRTQW9XMnlZNDdROHdsMTBnS2U4MzEwQ1Z5S3JoLy91NXd0UHQrS0RiS2xLd09CYgo4QVg1ZXR4ZmVRNktLcDB6TkhHN0V3RTZQeklISlV6QmNPb3prVXZ4RDdJSWgxREd5d3BxdER4ek5OdlR0ai83CmIxNzBvZEtCY3NDZUtxZVMwbHZpQ0R1MmpwWTJ4WkNNSDZiME8rVVE1NXJyNENsSkFvSUJBUURlT2I1dXdmZ3MKb3hqLzA3djkzT2p3ekFQUUNYMWloeUFVeE5abUlHUm0zekdGWWRzOGhNa3FzSGVtc2ttNzNsYWxKTUFNeUFSaApEZDVHVlB3dXRDdUF5Ykw1NkNmaUhvSk1qaFU3ckFqWUIwNldLUGpaZFVKclEvOXdwcWRsc1JHYTEwS3A5VmFSClZpVkNmcm56M1dpaHpoZEYxOG8zQ2lvekRrUERpcFBhaktYWDBveEsvY1ZFY01JNEN2V2c0WFNvT1VIRW1IS3gKb2c2UEZRb2FqMmw4QVUvek5VWWtSWTZUSlllM1pyaUxwaGtTV0lnVkdsbVBjVW41UFdRNVp2MDEwbHh3TUMzawpZS2ltWjNpSE9ibEZWMlBXSDNnMXRGOFZmenYrbzdDbXJ4OWxYL0IwQUpGSEsrRWJnbTNjaERlNGltT0wzNEs0Cmg4SFdIamkxVU4wUkFvSUJBUURUOWVCRStyNktveEpQTVIrbGJOWHRIRXA0d2NocXdiZjJhT0FRbmRqSlBXbHIKbkhrZnVVKzM0WTJaczN1cEp1RkFJbzlDRC82M2EyRWp6VlBOZWRrWHdHVk5PN3V3QmJQSjZsSnA1ZTJaWnVNZgppMFR2R1N3aFVEOXdiQ3lNcVNHaStnOExYVVhaYlhGaW9IZGcvMXNGSzBCSmVRSFZwakszdVNwdHBmUXFodzFuClFjaFNwUzNCV2g2VkxhZzVpZjZ4TURRZWVPU0N6QUZUM3EyakRZdnl3Z0p1UWY0Y2E2blZSODR1Vjk4RU1MY1EKcGM2bEk0MS9yZ3Noa3NhenM4TzNMNVNRbDVsSGtZQkhZUU1zTlJ3QUFmQWtHQ1RPRlo0ZmNkUzJlbnlPMGVhdQprcXNrQjBBaDFoNG5GeXZKNEljZzdLaFBHZGRucVh3VTBxZ3pGR3FSQW9JQkFBV0h6RngzU1ZUYkRrRTNwTU1SCm4xNTJ4VldGRnZDL3lpV2FMSGZJTUpkNjBJR3dTTU45em4vWWVuSFVtQThyM2w0bnh2dktjb2x6emVkVU1CNTkKYjJPNklWRWszUEU4cnlOMm1jS3RhbDd0OTUrM0QxSmlIN0FKdGk2NGh3djUxeVZTWEI5Y3NyWFZQZ0lrb3o0VgpjWWd0VjlqdUlPTXp4bzhVdU0wQ0F1SDZoQm9WN0ZYbGNPWmVKQWMvQnBQbGFJRFRRL2Eva0lNcE5GR05SWDRaCnVaZFRkUWpwZDRCcGxyM0V2bGJySUlhaE1KaUxTWCswOHl1bHR5Q1R6WTI4S1dzUWZDcHltSUhKZ2dqNkpEN0IKU2dJV3hhNUxoRE5aOU0vVkpjb1Zpc3pyS00zZUVGN2lzTHJqdGF0NG1JRlhiUWVUc2h5R0NIdk5MUjdHQzhVLwphUEVDZ2dFQU9wQWNvVjFIQ0FMc1M3VXZXS2M1ZE43UjRsVTRqWk9hcENRaEovem1hcmxjVU90emJ1d3o4QU5iCkpTRUJVVU1MUGNsVVU0YTFkUy9GTVJxY0ZpWjV3THRUem1lRkJpTUNsQnJrdnRqL3B2K3hudHhNNmY2b2VWNWQKcWU1bDIzdHA5NWNlWkNzY2tudEpOYUJDNm5nVCs2TnIrMlBuaThzLzNOZmUxR1hnR3JTNmhCZEM5S2NHYXp1MQp2dkNacy93emVVWk9lQm9ZbDNXR0dIampzeUNRakpEdFdNRGVqUFR3Q1ZpbSttbkdGRWt3V0g3d0dIaDhzTzRsClFpdVE4YUFzOERnSUwxeEk3RDhnNnV4cExzYlJ4OXlSZFFZZ3dxbCtMRVFuNjd2N1B4dzhaZ096SVlCK2ZUdGEKRkQwSHhOdWZGY29RQnljZ2NXakRFQk81T2lDM29BPT0KLS0tLS1FTkQgUFJJVkFURSBLRVktLS0tLQo=</prv>
   </cert>
+  <syslog/>
 </opnsense>
