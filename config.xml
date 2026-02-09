@@ -150,8 +150,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       <virtual>1</virtual>
     </lo0>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1770231015.77" description="Dnsmasq DNS and DHCP">
-    <enable>1</enable>
+  <dnsmasq version="1.0.8" persisted_at="1770612798.85" description="Dnsmasq DNS and DHCP">
+    <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
     <dhcpfirst>0</dhcpfirst>
@@ -227,8 +227,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/interfaces.php made changes</description>
-    <time>1770612767.94</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1770612798.85</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770230277.32" description="Unbound configuration">
