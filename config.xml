@@ -101,13 +101,21 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
         <password/>
       </git>
     </backup>
-    <dnsserver>192.168.1.1</dnsserver>
+    <dnsserver/>
     <language>en_US</language>
     <pf_disable_force_gw>1</pf_disable_force_gw>
     <disablereplyto>1</disablereplyto>
     <backupcount>3</backupcount>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
+    <dns1gw>none</dns1gw>
+    <dns2gw>none</dns2gw>
+    <dns3gw>none</dns3gw>
+    <dns4gw>none</dns4gw>
+    <dns5gw>none</dns5gw>
+    <dns6gw>none</dns6gw>
+    <dns7gw>none</dns7gw>
+    <dns8gw>none</dns8gw>
   </system>
   <interfaces>
     <wan>
@@ -227,8 +235,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1770692823.44</time>
+    <description>/system_general.php made changes</description>
+    <time>1770693757.71</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770692823.44" description="Unbound configuration">
