@@ -235,8 +235,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/api/cron/settings/add_job/ made changes</description>
-    <time>1770701267.41</time>
+    <description>/api/cron/settings/set_job/7ac2605e-ade5-4ced-aa00-4d4cbc0a44d8 made changes</description>
+    <time>1770701453.54</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770700937.52" description="Unbound configuration">
@@ -987,7 +987,7 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       </general>
     </crowdsec>
     <DHCRelay version="1.0.1" persisted_at="1770230278.99" description="DHCRelay configuration"/>
-    <cron version="1.0.4" persisted_at="1770701267.41" description="Cron settings">
+    <cron version="1.0.4" persisted_at="1770701453.54" description="Cron settings">
       <jobs>
         <job uuid="821adabf-972b-45ee-b763-f00e9c1ee0b0">
           <origin>cron</origin>
@@ -1006,7 +1006,7 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
           <origin>cron</origin>
           <enabled>1</enabled>
           <minutes>0</minutes>
-          <hours>1</hours>
+          <hours>*</hours>
           <days>*</days>
           <months>*</months>
           <weekdays>*</weekdays>
