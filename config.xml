@@ -235,11 +235,11 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1770696965.82</time>
+    <description>/api/unbound/settings/addDnsbl/ made changes</description>
+    <time>1770697789.27</time>
   </revision>
   <OPNsense>
-    <unboundplus version="1.0.13" persisted_at="1770696965.82" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1770697789.27" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
@@ -304,7 +304,21 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       <acls>
         <default_action>allow</default_action>
       </acls>
-      <dnsbl/>
+      <dnsbl>
+        <blocklist uuid="457aa64a-bac4-4ffb-bc45-e03361151a8e">
+          <enabled>1</enabled>
+          <type>atf,ag,hgz002,sb</type>
+          <lists/>
+          <allowlists/>
+          <blocklists/>
+          <wildcards/>
+          <source_nets/>
+          <address/>
+          <nxdomain>0</nxdomain>
+          <cache_ttl>72000</cache_ttl>
+          <description>ad-blocks</description>
+        </blocklist>
+      </dnsbl>
       <forwarding>
         <enabled>0</enabled>
       </forwarding>
