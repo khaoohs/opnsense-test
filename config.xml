@@ -158,7 +158,7 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       <virtual>1</virtual>
     </lo0>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1770612798.85" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1770693957.08" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -173,7 +173,7 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
     <dnssec>0</dnssec>
     <regdhcpdomain/>
     <interface>lan</interface>
-    <port>53053</port>
+    <port>0</port>
     <dns_forward_max/>
     <cache_size/>
     <local_ttl/>
@@ -235,8 +235,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/system_general.php made changes</description>
-    <time>1770693792.37</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1770693957.08</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770692823.44" description="Unbound configuration">
