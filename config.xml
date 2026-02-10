@@ -235,11 +235,11 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/api/cron/settings/add_job/ made changes</description>
-    <time>1770700257.17</time>
+    <description>/api/unbound/settings/add_host_override/ made changes</description>
+    <time>1770700937.52</time>
   </revision>
   <OPNsense>
-    <unboundplus version="1.0.13" persisted_at="1770700091.77" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1770700937.52" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -375,7 +375,20 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
         <enabled>0</enabled>
       </forwarding>
       <dots/>
-      <hosts/>
+      <hosts>
+        <host uuid="d7f76659-2e56-424d-83fc-bb2e4e6f498c">
+          <enabled>1</enabled>
+          <hostname>*</hostname>
+          <domain>home.khaoohs.net</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl>600</ttl>
+          <server>192.168.1.32</server>
+          <txtdata/>
+          <description/>
+        </host>
+      </hosts>
       <aliases/>
     </unboundplus>
     <wireguard>
