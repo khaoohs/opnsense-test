@@ -236,10 +236,10 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   <revision>
     <username>root@192.168.1.248</username>
     <description>/api/unbound/settings/set made changes</description>
-    <time>1770696849.54</time>
+    <time>1770696965.82</time>
   </revision>
   <OPNsense>
-    <unboundplus version="1.0.13" persisted_at="1770696849.54" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1770696965.82" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
@@ -280,8 +280,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
         <logtagqueryreply>1</logtagqueryreply>
         <logservfail>1</logservfail>
         <loglocalactions>1</loglocalactions>
-        <logverbosity>2</logverbosity>
-        <valloglevel>1</valloglevel>
+        <logverbosity>1</logverbosity>
+        <valloglevel>0</valloglevel>
         <privatedomain/>
         <privateaddress>0.0.0.0/8,10.0.0.0/8,100.64.0.0/10,169.254.0.0/16,172.16.0.0/12,192.0.2.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,233.252.0.0/24,::1/128,2001:db8::/32,fc00::/8,fd00::/8,fe80::/10</privateaddress>
         <insecuredomain/>
