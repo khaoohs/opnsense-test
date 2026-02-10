@@ -235,11 +235,11 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/api/unbound/settings/setDnsbl/457aa64a-bac4-4ffb-bc45-e03361151a8e made changes</description>
-    <time>1770697903.00</time>
+    <description>/api/unbound/settings/addDnsbl/ made changes</description>
+    <time>1770698160.97</time>
   </revision>
   <OPNsense>
-    <unboundplus version="1.0.13" persisted_at="1770697903.00" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1770698160.97" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
@@ -317,6 +317,19 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
           <nxdomain>0</nxdomain>
           <cache_ttl>72000</cache_ttl>
           <description>steven black list</description>
+        </blocklist>
+        <blocklist uuid="f5a5ac93-9d3b-45a1-bd3b-65e0ab9729e9">
+          <enabled>1</enabled>
+          <type>atf</type>
+          <lists/>
+          <allowlists/>
+          <blocklists/>
+          <wildcards/>
+          <source_nets/>
+          <address/>
+          <nxdomain>0</nxdomain>
+          <cache_ttl>72000</cache_ttl>
+          <description>abuse.ch</description>
         </blocklist>
       </dnsbl>
       <forwarding>
