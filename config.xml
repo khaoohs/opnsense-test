@@ -235,8 +235,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/api/cron/settings/set_job/7ac2605e-ade5-4ced-aa00-4d4cbc0a44d8 made changes</description>
-    <time>1770701453.54</time>
+    <description>/api/diagnostics/netflow/setconfig made changes</description>
+    <time>1770701519.90</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770700937.52" description="Unbound configuration">
@@ -827,9 +827,9 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       <VTIs/>
       <SPDs/>
     </Swanctl>
-    <Netflow version="1.0.1" persisted_at="1770230278.83" description="NetFlow configuration">
+    <Netflow version="1.0.1" persisted_at="1770701519.90" description="NetFlow configuration">
       <capture>
-        <interfaces/>
+        <interfaces>lan</interfaces>
         <egress_only/>
         <version>v9</version>
         <targets/>
