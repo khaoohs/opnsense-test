@@ -234,12 +234,12 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.223</username>
-    <description>/api/unbound/settings/addDnsbl/ made changes</description>
-    <time>1770734714.67</time>
+    <username>root@192.168.1.170</username>
+    <description>/api/unbound/settings/update_blocklist made changes</description>
+    <time>1770746787.49</time>
   </revision>
   <OPNsense>
-    <unboundplus version="1.0.13" persisted_at="1770734714.67" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1770746787.49" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -362,7 +362,7 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
           <type/>
           <lists/>
           <allowlists/>
-          <blocklists>sdk.split.io</blocklists>
+          <blocklists>sdk.split.io,b.6sc.co</blocklists>
           <wildcards/>
           <source_nets/>
           <address/>
