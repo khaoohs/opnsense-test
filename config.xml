@@ -226,9 +226,9 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1770691289.53</time>
+    <username>root@192.168.1.248</username>
+    <description>/api/adguardhome/general/set made changes</description>
+    <time>1770691401.70</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770230277.32" description="Unbound configuration">
@@ -904,9 +904,9 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       <jobs/>
     </cron>
     <adguardhome>
-      <general version="0.0.1" persisted_at="1770691289.31" description="Adguardhome general configuration">
-        <enabled>0</enabled>
-        <primarydns>0</primarydns>
+      <general version="0.0.1" persisted_at="1770691401.70" description="Adguardhome general configuration">
+        <enabled>1</enabled>
+        <primarydns>1</primarydns>
       </general>
     </adguardhome>
   </OPNsense>
