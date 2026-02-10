@@ -236,10 +236,10 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   <revision>
     <username>root@192.168.1.170</username>
     <description>/api/unbound/settings/update_blocklist made changes</description>
-    <time>1770746788.97</time>
+    <time>1770746791.24</time>
   </revision>
   <OPNsense>
-    <unboundplus version="1.0.13" persisted_at="1770746788.97" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1770746791.24" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -361,8 +361,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
           <enabled>1</enabled>
           <type/>
           <lists/>
-          <allowlists>b.6sc.co</allowlists>
-          <blocklists>sdk.split.io</blocklists>
+          <allowlists/>
+          <blocklists>sdk.split.io,b.6sc.co</blocklists>
           <wildcards/>
           <source_nets/>
           <address/>
