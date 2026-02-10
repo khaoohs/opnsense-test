@@ -226,9 +226,9 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.248</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1770612798.85</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1770691289.31</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770230277.32" description="Unbound configuration">
@@ -903,6 +903,12 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
     <cron version="1.0.4" persisted_at="1770230279.00" description="Cron settings">
       <jobs/>
     </cron>
+    <adguardhome>
+      <general version="0.0.1" persisted_at="1770691289.31" description="Adguardhome general configuration">
+        <enabled>0</enabled>
+        <primarydns>0</primarydns>
+      </general>
+    </adguardhome>
   </OPNsense>
   <Pischem>
     <caddy version="1.3.7" persisted_at="1770230277.34" description="Caddy Reverse Proxy">
