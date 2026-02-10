@@ -235,14 +235,14 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/api/adguardhome/general/set made changes</description>
-    <time>1770698689.09</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1770698703.54</time>
   </revision>
   <OPNsense>
-    <unboundplus version="1.0.13" persisted_at="1770698512.61" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1770698703.54" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
-        <port>5353</port>
+        <port>53</port>
         <stats>0</stats>
         <active_interface/>
         <dnssec>1</dnssec>
