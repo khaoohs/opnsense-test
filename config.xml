@@ -236,10 +236,10 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   <revision>
     <username>root@192.168.1.248</username>
     <description>/api/unbound/settings/addDnsbl/ made changes</description>
-    <time>1770698160.97</time>
+    <time>1770698214.45</time>
   </revision>
   <OPNsense>
-    <unboundplus version="1.0.13" persisted_at="1770698160.97" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1770698214.45" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
@@ -330,6 +330,19 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
           <nxdomain>0</nxdomain>
           <cache_ttl>72000</cache_ttl>
           <description>abuse.ch</description>
+        </blocklist>
+        <blocklist uuid="bfb5291e-80b6-4d18-8f27-c507af5ea8fc">
+          <enabled>1</enabled>
+          <type>hgz002</type>
+          <lists/>
+          <allowlists/>
+          <blocklists/>
+          <wildcards/>
+          <source_nets/>
+          <address/>
+          <nxdomain>0</nxdomain>
+          <cache_ttl>72000</cache_ttl>
+          <description>hagezi-normal</description>
         </blocklist>
       </dnsbl>
       <forwarding>
