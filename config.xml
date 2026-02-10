@@ -235,11 +235,11 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1770693957.08</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1770696555.68</time>
   </revision>
   <OPNsense>
-    <unboundplus version="1.0.13" persisted_at="1770692823.44" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1770696555.68" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>5353</port>
@@ -274,12 +274,12 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
         <serveexpiredttlreset>0</serveexpiredttlreset>
         <serveexpiredclienttimeout/>
         <qnameminstrict>0</qnameminstrict>
-        <extendedstatistics>0</extendedstatistics>
-        <logqueries>0</logqueries>
-        <logreplies>0</logreplies>
-        <logtagqueryreply>0</logtagqueryreply>
-        <logservfail>0</logservfail>
-        <loglocalactions>0</loglocalactions>
+        <extendedstatistics>1</extendedstatistics>
+        <logqueries>1</logqueries>
+        <logreplies>1</logreplies>
+        <logtagqueryreply>1</logtagqueryreply>
+        <logservfail>1</logservfail>
+        <loglocalactions>1</loglocalactions>
         <logverbosity>1</logverbosity>
         <valloglevel>0</valloglevel>
         <privatedomain/>
