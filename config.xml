@@ -235,11 +235,11 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.223</username>
-    <description>/api/unbound/settings/delDnsbl/1a6a10d8-1d6c-4326-b135-854c4a270275 made changes</description>
-    <time>1770734647.20</time>
+    <description>/api/unbound/settings/addDnsbl/ made changes</description>
+    <time>1770734714.67</time>
   </revision>
   <OPNsense>
-    <unboundplus version="1.0.13" persisted_at="1770734647.20" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1770734714.67" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -356,6 +356,19 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
           <nxdomain>0</nxdomain>
           <cache_ttl>72000</cache_ttl>
           <description>OISD-big</description>
+        </blocklist>
+        <blocklist uuid="21406bd8-97c9-4979-8e42-af81de46a4ff">
+          <enabled>1</enabled>
+          <type/>
+          <lists/>
+          <allowlists/>
+          <blocklists>sdk.split.io</blocklists>
+          <wildcards/>
+          <source_nets/>
+          <address/>
+          <nxdomain>0</nxdomain>
+          <cache_ttl>72000</cache_ttl>
+          <description>sdk.split.io manual entry</description>
         </blocklist>
       </dnsbl>
       <forwarding>
