@@ -234,12 +234,12 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.248</username>
-    <description>/reporting_settings.php made changes</description>
-    <time>1770701541.11</time>
+    <username>root@192.168.1.223</username>
+    <description>/api/unbound/settings/delDnsbl/1a6a10d8-1d6c-4326-b135-854c4a270275 made changes</description>
+    <time>1770734647.20</time>
   </revision>
   <OPNsense>
-    <unboundplus version="1.0.13" persisted_at="1770700937.52" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1770734647.20" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -343,19 +343,6 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
           <nxdomain>0</nxdomain>
           <cache_ttl>72000</cache_ttl>
           <description>hagezi-normal</description>
-        </blocklist>
-        <blocklist uuid="1a6a10d8-1d6c-4326-b135-854c4a270275">
-          <enabled>1</enabled>
-          <type/>
-          <lists/>
-          <allowlists/>
-          <blocklists>sdk.split.io</blocklists>
-          <wildcards/>
-          <source_nets/>
-          <address/>
-          <nxdomain>0</nxdomain>
-          <cache_ttl>72000</cache_ttl>
-          <description>sdk.split.io</description>
         </blocklist>
         <blocklist uuid="60e3b244-9f61-4044-810d-da7224671ad2">
           <enabled>1</enabled>
