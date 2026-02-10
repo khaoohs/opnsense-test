@@ -79,7 +79,7 @@
     <firmware version="1.0.1" persisted_at="1770231084.04" description="Firmware settings">
       <mirror/>
       <flavour/>
-      <plugins>os-caddy,os-cpu-microcode-intel,os-crowdsec,os-git-backup,os-isc-dhcp,os-netbird</plugins>
+      <plugins>os-adguardhome-maxit,os-caddy,os-cpu-microcode-intel,os-crowdsec,os-git-backup,os-isc-dhcp,os-netbird</plugins>
       <type/>
       <subscription/>
       <reboot>1</reboot>
@@ -227,8 +227,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1770691289.31</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1770691289.53</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770230277.32" description="Unbound configuration">
