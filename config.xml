@@ -235,8 +235,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/api/unbound/settings/addDnsbl/ made changes</description>
-    <time>1770698512.61</time>
+    <description>/api/adguardhome/general/set made changes</description>
+    <time>1770698689.09</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770698512.61" description="Unbound configuration">
@@ -965,9 +965,9 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       <jobs/>
     </cron>
     <adguardhome>
-      <general version="0.0.1" persisted_at="1770691401.70" description="Adguardhome general configuration">
-        <enabled>1</enabled>
-        <primarydns>1</primarydns>
+      <general version="0.0.1" persisted_at="1770698689.09" description="Adguardhome general configuration">
+        <enabled>0</enabled>
+        <primarydns>0</primarydns>
       </general>
     </adguardhome>
   </OPNsense>
