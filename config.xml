@@ -245,6 +245,7 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       <destination>
         <any/>
       </destination>
+      <disabled>1</disabled>
     </rule>
     <rule>
       <type>pass</type>
@@ -257,6 +258,7 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       <destination>
         <any/>
       </destination>
+      <disabled>1</disabled>
     </rule>
   </filter>
   <rrd>
@@ -267,8 +269,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/api/firewall/filter/upload_rules made changes</description>
-    <time>1771086995.90</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1771087033.44</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770746791.24" description="Unbound configuration">
