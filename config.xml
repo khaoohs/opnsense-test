@@ -198,7 +198,7 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       <virtual>1</virtual>
     </lo0>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1770693957.08" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1771085181.24" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -223,7 +223,7 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
     <dhcp>
       <no_interface/>
       <fqdn>1</fqdn>
-      <domain/>
+      <domain>home.khaoohs.internal</domain>
       <local>1</local>
       <lease_max/>
       <authoritative>0</authoritative>
@@ -275,8 +275,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/interfaces.php made changes</description>
-    <time>1771084772.43</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1771085181.24</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770746791.24" description="Unbound configuration">
