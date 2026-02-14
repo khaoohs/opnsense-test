@@ -156,7 +156,6 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       <spoofmac/>
       <ipaddr>192.168.1.251</ipaddr>
       <subnet>24</subnet>
-      <gateway>gw-test</gateway>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -269,7 +268,7 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   <revision>
     <username>root@192.168.1.248</username>
     <description>/interfaces.php made changes</description>
-    <time>1771086333.76</time>
+    <time>1771086429.77</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770746791.24" description="Unbound configuration">
