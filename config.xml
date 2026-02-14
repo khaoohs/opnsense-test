@@ -232,6 +232,46 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
     <outbound>
       <mode>automatic</mode>
     </outbound>
+    <rule uuid="b83fc738-64ea-4c85-a9b2-3cacb31203df">
+      <sequence>200</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
+      <interface>wan</interface>
+      <ipprotocol/>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <network/>
+        <port/>
+        <not>0</not>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>HTTP_HTTPS</port>
+        <not>0</not>
+      </destination>
+      <target>192.168.1.32</target>
+      <local-port>HTTP_HTTPS</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr>CADDY</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
+      <created>
+        <username>root</username>
+        <time>1771088721.54</time>
+        <description>/api/api.php made changes</description>
+      </created>
+      <updated>
+        <username>root</username>
+        <time>1771088721.54</time>
+        <description>/api/api.php made changes</description>
+      </updated>
+    </rule>
   </nat>
   <filter>
     <rule>
@@ -269,8 +309,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/api/firewall/alias/add_item/ made changes</description>
-    <time>1771088393.53</time>
+    <description>/api/firewall/d_nat/add_rule/ made changes</description>
+    <time>1771088721.54</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770746791.24" description="Unbound configuration">
