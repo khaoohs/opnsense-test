@@ -269,8 +269,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1771087033.44</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1771088393.53</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770746791.24" description="Unbound configuration">
@@ -833,7 +833,7 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
         <npt/>
         <onetoone/>
       </Filter>
-      <Alias version="1.0.1" persisted_at="1770230310.57" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1771088393.53" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -871,6 +871,24 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
             <expire/>
             <categories/>
             <description>CrowdSec (IPv6)</description>
+          </alias>
+          <alias uuid="a07e31b9-3624-4302-ab56-e2625ce0ccdf">
+            <enabled>1</enabled>
+            <name>HTTP_HTTPS</name>
+            <type>port</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>80
+443</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description/>
           </alias>
         </aliases>
       </Alias>
