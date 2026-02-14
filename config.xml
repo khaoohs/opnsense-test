@@ -147,35 +147,6 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       <adv_dhcp_config_advanced/>
       <adv_dhcp_config_file_override/>
       <adv_dhcp_config_file_override_path/>
-      <ipaddrv6>dhcp6</ipaddrv6>
-      <dhcp6-ia-pd-len>0</dhcp6-ia-pd-len>
-      <adv_dhcp6_interface_statement_send_options/>
-      <adv_dhcp6_interface_statement_request_options/>
-      <adv_dhcp6_interface_statement_information_only_enable/>
-      <adv_dhcp6_interface_statement_script/>
-      <adv_dhcp6_id_assoc_statement_address_enable/>
-      <adv_dhcp6_id_assoc_statement_address/>
-      <adv_dhcp6_id_assoc_statement_address_id/>
-      <adv_dhcp6_id_assoc_statement_address_pltime/>
-      <adv_dhcp6_id_assoc_statement_address_vltime/>
-      <adv_dhcp6_id_assoc_statement_prefix_enable/>
-      <adv_dhcp6_id_assoc_statement_prefix/>
-      <adv_dhcp6_id_assoc_statement_prefix_id/>
-      <adv_dhcp6_id_assoc_statement_prefix_pltime/>
-      <adv_dhcp6_id_assoc_statement_prefix_vltime/>
-      <adv_dhcp6_prefix_interface_statement_sla_len/>
-      <adv_dhcp6_authentication_statement_authname/>
-      <adv_dhcp6_authentication_statement_protocol/>
-      <adv_dhcp6_authentication_statement_algorithm/>
-      <adv_dhcp6_authentication_statement_rdm/>
-      <adv_dhcp6_key_info_statement_keyname/>
-      <adv_dhcp6_key_info_statement_realm/>
-      <adv_dhcp6_key_info_statement_keyid/>
-      <adv_dhcp6_key_info_statement_secret/>
-      <adv_dhcp6_key_info_statement_expire/>
-      <adv_dhcp6_config_advanced/>
-      <adv_dhcp6_config_file_override/>
-      <adv_dhcp6_config_file_override_path/>
     </wan>
     <lan>
       <if>igb0</if>
@@ -297,8 +268,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/system_general.php made changes</description>
-    <time>1771085965.18</time>
+    <description>/interfaces.php made changes</description>
+    <time>1771086333.76</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770746791.24" description="Unbound configuration">
