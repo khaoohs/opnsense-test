@@ -198,7 +198,7 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       <virtual>1</virtual>
     </lo0>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1771085184.93" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1771085302.83" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -235,6 +235,26 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
       <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
+    <dhcp_ranges uuid="05f89400-fc3e-49a7-976d-a58d9907e34c">
+      <interface>lan</interface>
+      <set_tag/>
+      <start_addr>192.168.1.100</start_addr>
+      <end_addr>192.168.1.200</end_addr>
+      <subnet_mask/>
+      <constructor/>
+      <mode/>
+      <prefix_len/>
+      <lease_time/>
+      <domain_type>range</domain_type>
+      <domain>home.khaoohs.internal</domain>
+      <nosync>0</nosync>
+      <ra_mode/>
+      <ra_priority/>
+      <ra_mtu/>
+      <ra_interval/>
+      <ra_router_lifetime/>
+      <description/>
+    </dhcp_ranges>
   </dnsmasq>
   <nat>
     <outbound>
@@ -275,8 +295,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1771085184.93</time>
+    <description>/api/dnsmasq/settings/add_range/ made changes</description>
+    <time>1771085302.83</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770746791.24" description="Unbound configuration">
