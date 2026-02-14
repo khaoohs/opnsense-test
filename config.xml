@@ -7,7 +7,7 @@
   <system>
     <optimization>normal</optimization>
     <hostname>OPNsense-test</hostname>
-    <domain>home.internal</domain>
+    <domain>home.khaoohs.internal</domain>
     <dnsallowoverride>0</dnsallowoverride>
     <dnsallowoverride_exclude/>
     <group uuid="6c66dda3-b626-43bf-9ef8-7c0b291c6c92">
@@ -116,6 +116,7 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
     <dns6gw>none</dns6gw>
     <dns7gw>none</dns7gw>
     <dns8gw>none</dns8gw>
+    <prefer_ipv4>1</prefer_ipv4>
   </system>
   <interfaces>
     <wan>
@@ -295,8 +296,8 @@ xK4YWxVeeAn/lOTVTi/JAAAAFWtoYW9vaHNAcHJvdG9ubWFpbC5jaA==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.248</username>
-    <description>/api/dnsmasq/settings/add_range/ made changes</description>
-    <time>1771085302.83</time>
+    <description>/system_general.php made changes</description>
+    <time>1771085790.58</time>
   </revision>
   <OPNsense>
     <unboundplus version="1.0.13" persisted_at="1770746791.24" description="Unbound configuration">
